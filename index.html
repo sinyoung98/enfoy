@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel = "stylesheet" href = "style.css">
+    <title>† Enjoy Coding † by GRASINNONG </title>
+    <script src="data.js"></script>
+  </head>
+  <body>
+      <header>
+          <div>
+           <a href="index.html"><img  id = "logo" src="logo.png" /></a> 
+          <div id = "menu">
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li> 
+              </ul>
+          </div>
+      </header>
+      <div id = "login">
+          ID <input id = "inputId" type="text">
+          PW <input id = "inputPw" type="password">
+          <button>Login</button>
+      </div>
+
+      <div id="contents">
+          <div id="title">TWITTLER</div>
+          <div id="creatNewTweet">
+              <div id="userName">UserName</div>
+              <input id = "inputUser" type="text">
+              <div id="comment">Comment</div>
+              <input id = "inputcomment" type="text">
+              <button id = "creatButton">Tweet!</button>
+          </div>
+          
+          <div id="showtweet">
+              <div id="bar">
+                  <button id = "backbutton">Back!</button>
+                  <button id="checknew">check-new-tweet!</button>
+              </div>
+              
+              <div id = "tweets">
+              <template class = "will-be-rendered">
+                  <div class="onetweet">
+                  <div class="user"></div>
+                  <div class="tweetComment"></div>
+                  <div class="date"></div>
+                </div>
+               </template>   
+            </div>
+
+          </div>
+      </div>
+<script src="script.js"></script>
+  </body>
+</html>
